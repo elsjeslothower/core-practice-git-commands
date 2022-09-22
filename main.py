@@ -1,12 +1,14 @@
 import pytest
 
+from symbol import pass_stmt
+
 
 def always_returns_true():
     print("Nice working with you!!!")
     return True
     print("Hi Geiselle!!")
-    print("Nice working with you too!!")
 
+    pass
     print("Helloooooooooo")
 
 
